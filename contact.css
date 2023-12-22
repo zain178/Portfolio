@@ -9,6 +9,8 @@ nav{
 a, a:visited, a:hover, a:active {
     text-decoration: inherit;
     color: inherit;
+    font-size: larger;
+    transition: 0.5s;
 }
 
 .nav-tems{
