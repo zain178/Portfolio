@@ -6,26 +6,70 @@ html *{
 
 nav{
     display: flex;
+    width: auto;
+    height: 96px;
+    padding: 23px 112px 24px 112px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 921px;
+    flex-shrink: 0;
 }
 
 a, a:visited, a:hover, a:active {
-    text-decoration: inherit;
-    color: inherit;
-    font-size: larger;
-    transition: 0.5s;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Label / Semibold */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+    text-transform: uppercase;
+    background: var(--Primary, linear-gradient(99deg, #BC3CD8 0.07%, #C54B8C 106.32%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav h2{
-    font-size: 40px;
+    width: auto;
+    height: 48px;
+    flex-shrink: 0;
 }
 
 .nav-tems{
-    font-size: large;
     display: flex;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: 80px;
-    font-weight: bold;
+    padding: 10px 0px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.landing-page{
+    height: 800px;
+    align-self: stretch;
+}
+
+#landing-page-p{
+    flex: 1 0 0;
+    color: var(--Neutral-2, rgba(227, 228, 230, 0.55));
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading 1/Light */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 84px */
+    letter-spacing: -1.12px;
+}
+
+#landing-page-p-special {
+    color: var(--Neutral-1, #E3E4E6);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading 1/Semibold */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -1.12px;
 }
 
 .parent-projects {
