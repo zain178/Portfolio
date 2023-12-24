@@ -9,9 +9,9 @@ nav{
     width: auto;
     height: 96px;
     padding: 23px 112px 24px 112px;
-    justify-content: center;
+    justify-content:center;
     align-items: flex-start;
-    gap: 921px;
+    gap: 600px;
     flex-shrink: 0;
 }
 
@@ -38,13 +38,13 @@ nav h2{
 .nav-tems{
     display: flex;
     padding: 10px 0px;
-    align-items: flex-start;
-    gap: 32px;
+    gap: 16px;
 }
 
 .landing-page{
     height: 800px;
     align-self: stretch;
+    text-align: center;
 }
 
 #landing-page-p{
@@ -107,4 +107,48 @@ nav h2{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     place-items: center;
+}
+
+#about-me{
+    display: flex;
+    height: 996px;
+    padding: 74px 107px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.about-me-main{
+    display: flex;
+    height: 996px;
+    padding: 74px 107px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+#about-me-text{
+    align-self: stretch;
+    color: var(--Neutral-1, #E3E4E6);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading 4/Semibold */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+#about-me-description{
+    align-self: stretch;
+    color: var(--Neutral-2, rgba(227, 228, 230, 0.55));
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading 3/Light */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 48px */
 }
