@@ -8,17 +8,15 @@ nav{
     display: flex;
     width: auto;
     height: 96px;
-    padding: 23px 112px 24px 112px;
     justify-content:center;
-    align-items: flex-start;
-    gap: 600px;
+    align-items:end;
+    gap: 505px;
     flex-shrink: 0;
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active{
     font-feature-settings: 'clig' off, 'liga' off;
     /* Label / Semibold */
-    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 21px */
@@ -27,30 +25,44 @@ a, a:visited, a:hover, a:active {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.75rem;
+    transition: 1s;
 }
 
 nav h2{
     width: auto;
+    font-size: 1.5rem;
+    padding-top: 25px;
     height: 48px;
     flex-shrink: 0;
 }
 
-.nav-tems{
+.nav-items{
     display: flex;
+    align-items: center;
     padding: 10px 0px;
-    gap: 16px;
+    gap: 32px;
+    font-size: 1.5rem;
 }
-
 .landing-page{
-    height: 800px;
+    width: 100%;
+    height: 50rem;
     align-self: stretch;
     text-align: center;
+}
+
+#landing-page-p-container{
+    display: flex;
+    width: 96%;
+    height: auto;
+    padding: 200px 0px;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 #landing-page-p{
     flex: 1 0 0;
     color: var(--Neutral-2, rgba(227, 228, 230, 0.55));
-    text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     /* Heading 1/Light */
     font-size: 56px;
@@ -58,18 +70,19 @@ nav h2{
     font-weight: 300;
     line-height: 150%; /* 84px */
     letter-spacing: -1.12px;
+    
 }
 
 #landing-page-p-special {
     color: var(--Neutral-1, #E3E4E6);
     font-feature-settings: 'clig' off, 'liga' off;
-
-/* Heading 1/Semibold */
+    /* Heading 1/Semibold */
     font-size: 56px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
     letter-spacing: -1.12px;
+    
 }
 
 .parent-projects {
